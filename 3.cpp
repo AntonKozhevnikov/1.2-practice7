@@ -5,7 +5,7 @@ using namespace std;
 int main ()
 {
     ifstream fin;
-    fin.open("file.txt");
+    fin.open("practice7.txt");
     string str;
     getline(fin,str);
     cout << str << endl;
@@ -19,7 +19,7 @@ using namespace std;
 int main() {
     int n = 1000;
     char* buffer = new char[n+1]; buffer[n]=0;
-    ifstream file("practice.txt");
+    ifstream file("practice7.txt");
 
     file.read(buffer,n);
     cout << buffer;
