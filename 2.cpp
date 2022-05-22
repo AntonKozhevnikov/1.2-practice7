@@ -7,7 +7,7 @@ int main() {
 
     string line;
 
-    ifstream fin("practice.txt");
+    ifstream fin("practice7.txt");
     while (fin >> line)
         {
             cout << line << endl;
